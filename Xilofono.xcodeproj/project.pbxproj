@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22026504234AF16200A6FF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22026503234AF16200A6FF03 /* AppDelegate.swift */; };
+		22026506234AF16200A6FF03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22026505234AF16200A6FF03 /* ViewController.swift */; };
+		22026509234AF16200A6FF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22026507234AF16200A6FF03 /* Main.storyboard */; };
+		2202650C234AF16200A6FF03 /* Xilofono.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2202650A234AF16200A6FF03 /* Xilofono.xcdatamodeld */; };
+		2202650E234AF16500A6FF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2202650D234AF16500A6FF03 /* Assets.xcassets */; };
+		22026511234AF16500A6FF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2202650F234AF16500A6FF03 /* LaunchScreen.storyboard */; };
+		2202651C234AF16500A6FF03 /* XilofonoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2202651B234AF16500A6FF03 /* XilofonoTests.swift */; };
+		22026527234AF16500A6FF03 /* XilofonoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22026526234AF16500A6FF03 /* XilofonoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22026518234AF16500A6FF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220264F8234AF16200A6FF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220264FF234AF16200A6FF03;
+			remoteInfo = Xilofono;
+		};
+		22026523234AF16500A6FF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220264F8234AF16200A6FF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220264FF234AF16200A6FF03;
+			remoteInfo = Xilofono;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22026500234AF16200A6FF03 /* Xilofono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xilofono.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22026503234AF16200A6FF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22026505234AF16200A6FF03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22026508234AF16200A6FF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2202650B234AF16200A6FF03 /* Xilofono.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Xilofono.xcdatamodel; sourceTree = "<group>"; };
+		2202650D234AF16500A6FF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22026510234AF16500A6FF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22026512234AF16500A6FF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22026517234AF16500A6FF03 /* XilofonoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XilofonoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2202651B234AF16500A6FF03 /* XilofonoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XilofonoTests.swift; sourceTree = "<group>"; };
+		2202651D234AF16500A6FF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22026522234AF16500A6FF03 /* XilofonoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XilofonoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22026526234AF16500A6FF03 /* XilofonoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XilofonoUITests.swift; sourceTree = "<group>"; };
+		22026528234AF16500A6FF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220264FD234AF16200A6FF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22026514234AF16500A6FF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2202651F234AF16500A6FF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220264F7234AF16200A6FF03 = {
+			isa = PBXGroup;
+			children = (
+				22026502234AF16200A6FF03 /* Xilofono */,
+				2202651A234AF16500A6FF03 /* XilofonoTests */,
+				22026525234AF16500A6FF03 /* XilofonoUITests */,
+				22026501234AF16200A6FF03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22026501234AF16200A6FF03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22026500234AF16200A6FF03 /* Xilofono.app */,
+				22026517234AF16500A6FF03 /* XilofonoTests.xctest */,
+				22026522234AF16500A6FF03 /* XilofonoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22026502234AF16200A6FF03 /* Xilofono */ = {
+			isa = PBXGroup;
+			children = (
+				22026503234AF16200A6FF03 /* AppDelegate.swift */,
+				22026505234AF16200A6FF03 /* ViewController.swift */,
+				22026507234AF16200A6FF03 /* Main.storyboard */,
+				2202650D234AF16500A6FF03 /* Assets.xcassets */,
+				2202650F234AF16500A6FF03 /* LaunchScreen.storyboard */,
+				22026512234AF16500A6FF03 /* Info.plist */,
+				2202650A234AF16200A6FF03 /* Xilofono.xcdatamodeld */,
+			);
+			path = Xilofono;
+			sourceTree = "<group>";
+		};
+		2202651A234AF16500A6FF03 /* XilofonoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2202651B234AF16500A6FF03 /* XilofonoTests.swift */,
+				2202651D234AF16500A6FF03 /* Info.plist */,
+			);
+			path = XilofonoTests;
+			sourceTree = "<group>";
+		};
+		22026525234AF16500A6FF03 /* XilofonoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22026526234AF16500A6FF03 /* XilofonoUITests.swift */,
+				22026528234AF16500A6FF03 /* Info.plist */,
+			);
+			path = XilofonoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220264FF234AF16200A6FF03 /* Xilofono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2202652B234AF16500A6FF03 /* Build configuration list for PBXNativeTarget "Xilofono" */;
+			buildPhases = (
+				220264FC234AF16200A6FF03 /* Sources */,
+				220264FD234AF16200A6FF03 /* Frameworks */,
+				220264FE234AF16200A6FF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Xilofono;
+			productName = Xilofono;
+			productReference = 22026500234AF16200A6FF03 /* Xilofono.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22026516234AF16500A6FF03 /* XilofonoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2202652E234AF16500A6FF03 /* Build configuration list for PBXNativeTarget "XilofonoTests" */;
+			buildPhases = (
+				22026513234AF16500A6FF03 /* Sources */,
+				22026514234AF16500A6FF03 /* Frameworks */,
+				22026515234AF16500A6FF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22026519234AF16500A6FF03 /* PBXTargetDependency */,
+			);
+			name = XilofonoTests;
+			productName = XilofonoTests;
+			productReference = 22026517234AF16500A6FF03 /* XilofonoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22026521234AF16500A6FF03 /* XilofonoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22026531234AF16500A6FF03 /* Build configuration list for PBXNativeTarget "XilofonoUITests" */;
+			buildPhases = (
+				2202651E234AF16500A6FF03 /* Sources */,
+				2202651F234AF16500A6FF03 /* Frameworks */,
+				22026520234AF16500A6FF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22026524234AF16500A6FF03 /* PBXTargetDependency */,
+			);
+			name = XilofonoUITests;
+			productName = XilofonoUITests;
+			productReference = 22026522234AF16500A6FF03 /* XilofonoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220264F8234AF16200A6FF03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = MacOs;
+				TargetAttributes = {
+					220264FF234AF16200A6FF03 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					22026516234AF16500A6FF03 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 220264FF234AF16200A6FF03;
+					};
+					22026521234AF16500A6FF03 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 220264FF234AF16200A6FF03;
+					};
+				};
+			};
+			buildConfigurationList = 220264FB234AF16200A6FF03 /* Build configuration list for PBXProject "Xilofono" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 220264F7234AF16200A6FF03;
+			productRefGroup = 22026501234AF16200A6FF03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220264FF234AF16200A6FF03 /* Xilofono */,
+				22026516234AF16500A6FF03 /* XilofonoTests */,
+				22026521234AF16500A6FF03 /* XilofonoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220264FE234AF16200A6FF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22026511234AF16500A6FF03 /* LaunchScreen.storyboard in Resources */,
+				2202650E234AF16500A6FF03 /* Assets.xcassets in Resources */,
+				22026509234AF16200A6FF03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22026515234AF16500A6FF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22026520234AF16500A6FF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220264FC234AF16200A6FF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22026506234AF16200A6FF03 /* ViewController.swift in Sources */,
+				2202650C234AF16200A6FF03 /* Xilofono.xcdatamodeld in Sources */,
+				22026504234AF16200A6FF03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22026513234AF16500A6FF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2202651C234AF16500A6FF03 /* XilofonoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2202651E234AF16500A6FF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22026527234AF16500A6FF03 /* XilofonoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22026519234AF16500A6FF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220264FF234AF16200A6FF03 /* Xilofono */;
+			targetProxy = 22026518234AF16500A6FF03 /* PBXContainerItemProxy */;
+		};
+		22026524234AF16500A6FF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220264FF234AF16200A6FF03 /* Xilofono */;
+			targetProxy = 22026523234AF16500A6FF03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22026507234AF16200A6FF03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22026508234AF16200A6FF03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2202650F234AF16500A6FF03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22026510234AF16500A6FF03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22026529234AF16500A6FF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2202652A234AF16500A6FF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2202652C234AF16500A6FF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				INFOPLIST_FILE = Xilofono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Xilofono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2202652D234AF16500A6FF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				INFOPLIST_FILE = Xilofono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Xilofono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2202652F234AF16500A6FF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				INFOPLIST_FILE = XilofonoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.XilofonoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xilofono.app/Xilofono";
+			};
+			name = Debug;
+		};
+		22026530234AF16500A6FF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				INFOPLIST_FILE = XilofonoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.XilofonoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xilofono.app/Xilofono";
+			};
+			name = Release;
+		};
+		22026532234AF16500A6FF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				INFOPLIST_FILE = XilofonoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.XilofonoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Xilofono;
+			};
+			name = Debug;
+		};
+		22026533234AF16500A6FF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				INFOPLIST_FILE = XilofonoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.XilofonoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Xilofono;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220264FB234AF16200A6FF03 /* Build configuration list for PBXProject "Xilofono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22026529234AF16500A6FF03 /* Debug */,
+				2202652A234AF16500A6FF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2202652B234AF16500A6FF03 /* Build configuration list for PBXNativeTarget "Xilofono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2202652C234AF16500A6FF03 /* Debug */,
+				2202652D234AF16500A6FF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2202652E234AF16500A6FF03 /* Build configuration list for PBXNativeTarget "XilofonoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2202652F234AF16500A6FF03 /* Debug */,
+				22026530234AF16500A6FF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22026531234AF16500A6FF03 /* Build configuration list for PBXNativeTarget "XilofonoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22026532234AF16500A6FF03 /* Debug */,
+				22026533234AF16500A6FF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2202650A234AF16200A6FF03 /* Xilofono.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2202650B234AF16200A6FF03 /* Xilofono.xcdatamodel */,
+			);
+			currentVersion = 2202650B234AF16200A6FF03 /* Xilofono.xcdatamodel */;
+			path = Xilofono.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 220264F8234AF16200A6FF03 /* Project object */;
+}
