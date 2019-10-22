@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22541A64235F727400A9EA65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22541A63235F727400A9EA65 /* AppDelegate.swift */; };
+		22541A66235F727400A9EA65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22541A65235F727400A9EA65 /* SceneDelegate.swift */; };
+		22541A68235F727400A9EA65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22541A67235F727400A9EA65 /* ViewController.swift */; };
+		22541A6B235F727400A9EA65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22541A69235F727400A9EA65 /* Main.storyboard */; };
+		22541A6E235F727400A9EA65 /* Meteoro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22541A6C235F727400A9EA65 /* Meteoro.xcdatamodeld */; };
+		22541A70235F727900A9EA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22541A6F235F727900A9EA65 /* Assets.xcassets */; };
+		22541A73235F727900A9EA65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22541A71235F727900A9EA65 /* LaunchScreen.storyboard */; };
+		22541A7E235F727A00A9EA65 /* MeteoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22541A7D235F727A00A9EA65 /* MeteoroTests.swift */; };
+		22541A89235F727A00A9EA65 /* MeteoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22541A88235F727A00A9EA65 /* MeteoroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22541A7A235F727A00A9EA65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22541A58235F727400A9EA65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22541A5F235F727400A9EA65;
+			remoteInfo = Meteoro;
+		};
+		22541A85235F727A00A9EA65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22541A58235F727400A9EA65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22541A5F235F727400A9EA65;
+			remoteInfo = Meteoro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22541A60235F727400A9EA65 /* Meteoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meteoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22541A63235F727400A9EA65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22541A65235F727400A9EA65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22541A67235F727400A9EA65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22541A6A235F727400A9EA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22541A6D235F727400A9EA65 /* Meteoro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meteoro.xcdatamodel; sourceTree = "<group>"; };
+		22541A6F235F727900A9EA65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22541A72235F727900A9EA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22541A74235F727900A9EA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22541A79235F727A00A9EA65 /* MeteoroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteoroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22541A7D235F727A00A9EA65 /* MeteoroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoroTests.swift; sourceTree = "<group>"; };
+		22541A7F235F727A00A9EA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22541A84235F727A00A9EA65 /* MeteoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22541A88235F727A00A9EA65 /* MeteoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoroUITests.swift; sourceTree = "<group>"; };
+		22541A8A235F727A00A9EA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22541A5D235F727400A9EA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22541A76235F727A00A9EA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22541A81235F727A00A9EA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22541A57235F727400A9EA65 = {
+			isa = PBXGroup;
+			children = (
+				22541A62235F727400A9EA65 /* Meteoro */,
+				22541A7C235F727A00A9EA65 /* MeteoroTests */,
+				22541A87235F727A00A9EA65 /* MeteoroUITests */,
+				22541A61235F727400A9EA65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22541A61235F727400A9EA65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22541A60235F727400A9EA65 /* Meteoro.app */,
+				22541A79235F727A00A9EA65 /* MeteoroTests.xctest */,
+				22541A84235F727A00A9EA65 /* MeteoroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22541A62235F727400A9EA65 /* Meteoro */ = {
+			isa = PBXGroup;
+			children = (
+				22541A63235F727400A9EA65 /* AppDelegate.swift */,
+				22541A65235F727400A9EA65 /* SceneDelegate.swift */,
+				22541A67235F727400A9EA65 /* ViewController.swift */,
+				22541A69235F727400A9EA65 /* Main.storyboard */,
+				22541A6F235F727900A9EA65 /* Assets.xcassets */,
+				22541A71235F727900A9EA65 /* LaunchScreen.storyboard */,
+				22541A74235F727900A9EA65 /* Info.plist */,
+				22541A6C235F727400A9EA65 /* Meteoro.xcdatamodeld */,
+			);
+			path = Meteoro;
+			sourceTree = "<group>";
+		};
+		22541A7C235F727A00A9EA65 /* MeteoroTests */ = {
+			isa = PBXGroup;
+			children = (
+				22541A7D235F727A00A9EA65 /* MeteoroTests.swift */,
+				22541A7F235F727A00A9EA65 /* Info.plist */,
+			);
+			path = MeteoroTests;
+			sourceTree = "<group>";
+		};
+		22541A87235F727A00A9EA65 /* MeteoroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22541A88235F727A00A9EA65 /* MeteoroUITests.swift */,
+				22541A8A235F727A00A9EA65 /* Info.plist */,
+			);
+			path = MeteoroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22541A5F235F727400A9EA65 /* Meteoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22541A8D235F727A00A9EA65 /* Build configuration list for PBXNativeTarget "Meteoro" */;
+			buildPhases = (
+				22541A5C235F727400A9EA65 /* Sources */,
+				22541A5D235F727400A9EA65 /* Frameworks */,
+				22541A5E235F727400A9EA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meteoro;
+			productName = Meteoro;
+			productReference = 22541A60235F727400A9EA65 /* Meteoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22541A78235F727A00A9EA65 /* MeteoroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22541A90235F727A00A9EA65 /* Build configuration list for PBXNativeTarget "MeteoroTests" */;
+			buildPhases = (
+				22541A75235F727A00A9EA65 /* Sources */,
+				22541A76235F727A00A9EA65 /* Frameworks */,
+				22541A77235F727A00A9EA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22541A7B235F727A00A9EA65 /* PBXTargetDependency */,
+			);
+			name = MeteoroTests;
+			productName = MeteoroTests;
+			productReference = 22541A79235F727A00A9EA65 /* MeteoroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22541A83235F727A00A9EA65 /* MeteoroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22541A93235F727A00A9EA65 /* Build configuration list for PBXNativeTarget "MeteoroUITests" */;
+			buildPhases = (
+				22541A80235F727A00A9EA65 /* Sources */,
+				22541A81235F727A00A9EA65 /* Frameworks */,
+				22541A82235F727A00A9EA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22541A86235F727A00A9EA65 /* PBXTargetDependency */,
+			);
+			name = MeteoroUITests;
+			productName = MeteoroUITests;
+			productReference = 22541A84235F727A00A9EA65 /* MeteoroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22541A58235F727400A9EA65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = MacOs;
+				TargetAttributes = {
+					22541A5F235F727400A9EA65 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					22541A78235F727A00A9EA65 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 22541A5F235F727400A9EA65;
+					};
+					22541A83235F727A00A9EA65 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 22541A5F235F727400A9EA65;
+					};
+				};
+			};
+			buildConfigurationList = 22541A5B235F727400A9EA65 /* Build configuration list for PBXProject "Meteoro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22541A57235F727400A9EA65;
+			productRefGroup = 22541A61235F727400A9EA65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22541A5F235F727400A9EA65 /* Meteoro */,
+				22541A78235F727A00A9EA65 /* MeteoroTests */,
+				22541A83235F727A00A9EA65 /* MeteoroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22541A5E235F727400A9EA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22541A73235F727900A9EA65 /* LaunchScreen.storyboard in Resources */,
+				22541A70235F727900A9EA65 /* Assets.xcassets in Resources */,
+				22541A6B235F727400A9EA65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22541A77235F727A00A9EA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22541A82235F727A00A9EA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22541A5C235F727400A9EA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22541A68235F727400A9EA65 /* ViewController.swift in Sources */,
+				22541A64235F727400A9EA65 /* AppDelegate.swift in Sources */,
+				22541A66235F727400A9EA65 /* SceneDelegate.swift in Sources */,
+				22541A6E235F727400A9EA65 /* Meteoro.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22541A75235F727A00A9EA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22541A7E235F727A00A9EA65 /* MeteoroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22541A80235F727A00A9EA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22541A89235F727A00A9EA65 /* MeteoroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22541A7B235F727A00A9EA65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22541A5F235F727400A9EA65 /* Meteoro */;
+			targetProxy = 22541A7A235F727A00A9EA65 /* PBXContainerItemProxy */;
+		};
+		22541A86235F727A00A9EA65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22541A5F235F727400A9EA65 /* Meteoro */;
+			targetProxy = 22541A85235F727A00A9EA65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22541A69235F727400A9EA65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22541A6A235F727400A9EA65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22541A71235F727900A9EA65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22541A72235F727900A9EA65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22541A8B235F727A00A9EA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22541A8C235F727A00A9EA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22541A8E235F727A00A9EA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				INFOPLIST_FILE = Meteoro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Meteoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22541A8F235F727A00A9EA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				INFOPLIST_FILE = Meteoro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Meteoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22541A91235F727A00A9EA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				INFOPLIST_FILE = MeteoroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MeteoroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meteoro.app/Meteoro";
+			};
+			name = Debug;
+		};
+		22541A92235F727A00A9EA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				INFOPLIST_FILE = MeteoroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MeteoroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meteoro.app/Meteoro";
+			};
+			name = Release;
+		};
+		22541A94235F727A00A9EA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				INFOPLIST_FILE = MeteoroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MeteoroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meteoro;
+			};
+			name = Debug;
+		};
+		22541A95235F727A00A9EA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J58ZDFPQ77;
+				INFOPLIST_FILE = MeteoroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MeteoroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Meteoro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22541A5B235F727400A9EA65 /* Build configuration list for PBXProject "Meteoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22541A8B235F727A00A9EA65 /* Debug */,
+				22541A8C235F727A00A9EA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22541A8D235F727A00A9EA65 /* Build configuration list for PBXNativeTarget "Meteoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22541A8E235F727A00A9EA65 /* Debug */,
+				22541A8F235F727A00A9EA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22541A90235F727A00A9EA65 /* Build configuration list for PBXNativeTarget "MeteoroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22541A91235F727A00A9EA65 /* Debug */,
+				22541A92235F727A00A9EA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22541A93235F727A00A9EA65 /* Build configuration list for PBXNativeTarget "MeteoroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22541A94235F727A00A9EA65 /* Debug */,
+				22541A95235F727A00A9EA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22541A6C235F727400A9EA65 /* Meteoro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22541A6D235F727400A9EA65 /* Meteoro.xcdatamodel */,
+			);
+			currentVersion = 22541A6D235F727400A9EA65 /* Meteoro.xcdatamodel */;
+			path = Meteoro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22541A58235F727400A9EA65 /* Project object */;
+}
