@@ -16,6 +16,9 @@
 		22541A73235F727900A9EA65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22541A71235F727900A9EA65 /* LaunchScreen.storyboard */; };
 		22541A7E235F727A00A9EA65 /* MeteoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22541A7D235F727A00A9EA65 /* MeteoroTests.swift */; };
 		22541A89235F727A00A9EA65 /* MeteoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22541A88235F727A00A9EA65 /* MeteoroUITests.swift */; };
+		22541A992368A3D600A9EA65 /* Funcion_Sonido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22541A982368A3D500A9EA65 /* Funcion_Sonido.swift */; };
+		22541A9B2368A4A800A9EA65 /* pool_break.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22541A9A2368A4A800A9EA65 /* pool_break.wav */; };
+		2291AE5A2369F1A1009420AF /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291AE592369F1A1009420AF /* Circles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		22541A60235F727400A9EA65 /* Meteoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meteoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22541A63235F727400A9EA65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22541A65235F727400A9EA65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22541A67235F727400A9EA65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22541A67235F727400A9EA65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		22541A6A235F727400A9EA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22541A6D235F727400A9EA65 /* Meteoro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meteoro.xcdatamodel; sourceTree = "<group>"; };
 		22541A6F235F727900A9EA65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		22541A84235F727A00A9EA65 /* MeteoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22541A88235F727A00A9EA65 /* MeteoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoroUITests.swift; sourceTree = "<group>"; };
 		22541A8A235F727A00A9EA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22541A982368A3D500A9EA65 /* Funcion_Sonido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcion_Sonido.swift; sourceTree = "<group>"; };
+		22541A9A2368A4A800A9EA65 /* pool_break.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pool_break.wav; sourceTree = "<group>"; };
+		2291AE592369F1A1009420AF /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		22541A57235F727400A9EA65 = {
 			isa = PBXGroup;
 			children = (
+				2291AE592369F1A1009420AF /* Circles.swift */,
 				22541A62235F727400A9EA65 /* Meteoro */,
 				22541A7C235F727A00A9EA65 /* MeteoroTests */,
 				22541A87235F727A00A9EA65 /* MeteoroUITests */,
@@ -104,7 +111,9 @@
 				22541A63235F727400A9EA65 /* AppDelegate.swift */,
 				22541A65235F727400A9EA65 /* SceneDelegate.swift */,
 				22541A67235F727400A9EA65 /* ViewController.swift */,
+				22541A982368A3D500A9EA65 /* Funcion_Sonido.swift */,
 				22541A69235F727400A9EA65 /* Main.storyboard */,
+				22541A9A2368A4A800A9EA65 /* pool_break.wav */,
 				22541A6F235F727900A9EA65 /* Assets.xcassets */,
 				22541A71235F727900A9EA65 /* LaunchScreen.storyboard */,
 				22541A74235F727900A9EA65 /* Info.plist */,
@@ -235,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22541A9B2368A4A800A9EA65 /* pool_break.wav in Resources */,
 				22541A73235F727900A9EA65 /* LaunchScreen.storyboard in Resources */,
 				22541A70235F727900A9EA65 /* Assets.xcassets in Resources */,
 				22541A6B235F727400A9EA65 /* Main.storyboard in Resources */,
@@ -262,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22541A992368A3D600A9EA65 /* Funcion_Sonido.swift in Sources */,
 				22541A68235F727400A9EA65 /* ViewController.swift in Sources */,
 				22541A64235F727400A9EA65 /* AppDelegate.swift in Sources */,
+				2291AE5A2369F1A1009420AF /* Circles.swift in Sources */,
 				22541A66235F727400A9EA65 /* SceneDelegate.swift in Sources */,
 				22541A6E235F727400A9EA65 /* Meteoro.xcdatamodeld in Sources */,
 			);
@@ -370,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -441,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J58ZDFPQ77;
 				INFOPLIST_FILE = Meteoro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J58ZDFPQ77;
 				INFOPLIST_FILE = Meteoro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
