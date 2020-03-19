@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		22026504234AF16200A6FF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22026503234AF16200A6FF03 /* AppDelegate.swift */; };
-		22026506234AF16200A6FF03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22026505234AF16200A6FF03 /* ViewController.swift */; };
-		22026509234AF16200A6FF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22026507234AF16200A6FF03 /* Main.storyboard */; };
 		2202650C234AF16200A6FF03 /* Xilofono.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2202650A234AF16200A6FF03 /* Xilofono.xcdatamodeld */; };
 		2202650E234AF16500A6FF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2202650D234AF16500A6FF03 /* Assets.xcassets */; };
 		22026511234AF16500A6FF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2202650F234AF16500A6FF03 /* LaunchScreen.storyboard */; };
 		2202651C234AF16500A6FF03 /* XilofonoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2202651B234AF16500A6FF03 /* XilofonoTests.swift */; };
 		22026527234AF16500A6FF03 /* XilofonoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22026526234AF16500A6FF03 /* XilofonoUITests.swift */; };
+		225418A3235825FD00A9EA65 /* Do.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2254189B235825FC00A9EA65 /* Do.wav */; };
+		225418A4235825FD00A9EA65 /* Re.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2254189C235825FC00A9EA65 /* Re.wav */; };
+		225418A5235825FD00A9EA65 /* La.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2254189D235825FC00A9EA65 /* La.wav */; };
+		225418A6235825FD00A9EA65 /* domenor.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2254189E235825FC00A9EA65 /* domenor.wav */; };
+		225418A7235825FD00A9EA65 /* Mi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2254189F235825FC00A9EA65 /* Mi.wav */; };
+		225418A8235825FD00A9EA65 /* Sol.wav in Resources */ = {isa = PBXBuildFile; fileRef = 225418A0235825FC00A9EA65 /* Sol.wav */; };
+		225418A9235825FD00A9EA65 /* Fa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 225418A1235825FD00A9EA65 /* Fa.wav */; };
+		225418AA235825FD00A9EA65 /* Si.wav in Resources */ = {isa = PBXBuildFile; fileRef = 225418A2235825FD00A9EA65 /* Si.wav */; };
+		22962B432353B3EC00DB1FF7 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22962B422353B3EC00DB1FF7 /* Controller.swift */; };
+		22962B5423562BBB00DB1FF7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22962B5323562BBB00DB1FF7 /* AVFoundation.framework */; };
+		22962B5623562C8900DB1FF7 /* Sonidos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22962B5523562C8900DB1FF7 /* Sonidos.swift */; };
+		9CF7CFE82423352F0021AEC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF7CFE72423352F0021AEC4 /* ViewController.swift */; };
+		9CF7CFEA242335E40021AEC4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF7CFE9242335E40021AEC4 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +48,6 @@
 /* Begin PBXFileReference section */
 		22026500234AF16200A6FF03 /* Xilofono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xilofono.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22026503234AF16200A6FF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22026505234AF16200A6FF03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		22026508234AF16200A6FF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2202650B234AF16200A6FF03 /* Xilofono.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Xilofono.xcdatamodel; sourceTree = "<group>"; };
 		2202650D234AF16500A6FF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22026510234AF16500A6FF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,19 @@
 		22026522234AF16500A6FF03 /* XilofonoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XilofonoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22026526234AF16500A6FF03 /* XilofonoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XilofonoUITests.swift; sourceTree = "<group>"; };
 		22026528234AF16500A6FF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2254189B235825FC00A9EA65 /* Do.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Do.wav; sourceTree = "<group>"; };
+		2254189C235825FC00A9EA65 /* Re.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Re.wav; sourceTree = "<group>"; };
+		2254189D235825FC00A9EA65 /* La.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = La.wav; sourceTree = "<group>"; };
+		2254189E235825FC00A9EA65 /* domenor.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = domenor.wav; sourceTree = "<group>"; };
+		2254189F235825FC00A9EA65 /* Mi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mi.wav; sourceTree = "<group>"; };
+		225418A0235825FC00A9EA65 /* Sol.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sol.wav; sourceTree = "<group>"; };
+		225418A1235825FD00A9EA65 /* Fa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Fa.wav; sourceTree = "<group>"; };
+		225418A2235825FD00A9EA65 /* Si.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Si.wav; sourceTree = "<group>"; };
+		22962B422353B3EC00DB1FF7 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		22962B5323562BBB00DB1FF7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		22962B5523562C8900DB1FF7 /* Sonidos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sonidos.swift; sourceTree = "<group>"; };
+		9CF7CFE72423352F0021AEC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CF7CFE9242335E40021AEC4 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22962B5423562BBB00DB1FF7 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +102,12 @@
 		220264F7234AF16200A6FF03 = {
 			isa = PBXGroup;
 			children = (
+				9CF7CFE72423352F0021AEC4 /* ViewController.swift */,
 				22026502234AF16200A6FF03 /* Xilofono */,
 				2202651A234AF16500A6FF03 /* XilofonoTests */,
 				22026525234AF16500A6FF03 /* XilofonoUITests */,
 				22026501234AF16200A6FF03 /* Products */,
+				22962B5223562BBA00DB1FF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +125,18 @@
 			isa = PBXGroup;
 			children = (
 				22026503234AF16200A6FF03 /* AppDelegate.swift */,
-				22026505234AF16200A6FF03 /* ViewController.swift */,
-				22026507234AF16200A6FF03 /* Main.storyboard */,
+				22962B5523562C8900DB1FF7 /* Sonidos.swift */,
+				22962B422353B3EC00DB1FF7 /* Controller.swift */,
+				9CF7CFE9242335E40021AEC4 /* Storyboard.storyboard */,
 				2202650D234AF16500A6FF03 /* Assets.xcassets */,
+				2254189B235825FC00A9EA65 /* Do.wav */,
+				2254189E235825FC00A9EA65 /* domenor.wav */,
+				225418A1235825FD00A9EA65 /* Fa.wav */,
+				2254189D235825FC00A9EA65 /* La.wav */,
+				2254189F235825FC00A9EA65 /* Mi.wav */,
+				2254189C235825FC00A9EA65 /* Re.wav */,
+				225418A2235825FD00A9EA65 /* Si.wav */,
+				225418A0235825FC00A9EA65 /* Sol.wav */,
 				2202650F234AF16500A6FF03 /* LaunchScreen.storyboard */,
 				22026512234AF16500A6FF03 /* Info.plist */,
 				2202650A234AF16200A6FF03 /* Xilofono.xcdatamodeld */,
@@ -126,6 +160,14 @@
 				22026528234AF16500A6FF03 /* Info.plist */,
 			);
 			path = XilofonoUITests;
+			sourceTree = "<group>";
+		};
+		22962B5223562BBA00DB1FF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22962B5323562BBB00DB1FF7 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +274,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225418A8235825FD00A9EA65 /* Sol.wav in Resources */,
+				225418A7235825FD00A9EA65 /* Mi.wav in Resources */,
+				225418A6235825FD00A9EA65 /* domenor.wav in Resources */,
+				225418A4235825FD00A9EA65 /* Re.wav in Resources */,
 				22026511234AF16500A6FF03 /* LaunchScreen.storyboard in Resources */,
+				9CF7CFEA242335E40021AEC4 /* Storyboard.storyboard in Resources */,
+				225418A9235825FD00A9EA65 /* Fa.wav in Resources */,
+				225418A3235825FD00A9EA65 /* Do.wav in Resources */,
 				2202650E234AF16500A6FF03 /* Assets.xcassets in Resources */,
-				22026509234AF16200A6FF03 /* Main.storyboard in Resources */,
+				225418AA235825FD00A9EA65 /* Si.wav in Resources */,
+				225418A5235825FD00A9EA65 /* La.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22026506234AF16200A6FF03 /* ViewController.swift in Sources */,
+				9CF7CFE82423352F0021AEC4 /* ViewController.swift in Sources */,
 				2202650C234AF16200A6FF03 /* Xilofono.xcdatamodeld in Sources */,
 				22026504234AF16200A6FF03 /* AppDelegate.swift in Sources */,
+				22962B5623562C8900DB1FF7 /* Sonidos.swift in Sources */,
+				22962B432353B3EC00DB1FF7 /* Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		22026507234AF16200A6FF03 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22026508234AF16200A6FF03 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2202650F234AF16500A6FF03 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
