@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CC87B73242C692200132F9D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC87B72242C692200132F9D /* MapKit.framework */; };
+		9CC87B75242C6AFB00132F9D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC87B74242C6AFB00132F9D /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		9CC87B77242C6B3200132F9D /* libswiftCoreLocation.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC87B76242C6B3200132F9D /* libswiftCoreLocation.tbd */; };
 		9CFA35B5242C667500140E47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA35B4242C667500140E47 /* AppDelegate.swift */; };
 		9CFA35B7242C667500140E47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA35B6242C667500140E47 /* SceneDelegate.swift */; };
 		9CFA35B9242C667500140E47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA35B8242C667500140E47 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9CC87B72242C692200132F9D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9CC87B74242C6AFB00132F9D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9CC87B76242C6B3200132F9D /* libswiftCoreLocation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftCoreLocation.tbd; path = usr/lib/swift/libswiftCoreLocation.tbd; sourceTree = SDKROOT; };
 		9CFA35B1242C667500140E47 /* Mapas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFA35B4242C667500140E47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CFA35B6242C667500140E47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC87B77242C6B3200132F9D /* libswiftCoreLocation.tbd in Frameworks */,
+				9CC87B75242C6AFB00132F9D /* CoreLocation.framework in Frameworks */,
+				9CC87B73242C692200132F9D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CC87B71242C692100132F9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CC87B76242C6B3200132F9D /* libswiftCoreLocation.tbd */,
+				9CC87B74242C6AFB00132F9D /* CoreLocation.framework */,
+				9CC87B72242C692200132F9D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CFA35A8242C667500140E47 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +104,7 @@
 				9CFA35CD242C667D00140E47 /* MapasTests */,
 				9CFA35D8242C667E00140E47 /* MapasUITests */,
 				9CFA35B2242C667500140E47 /* Products */,
+				9CC87B71242C692100132F9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -445,6 +465,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = filek.Mapas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -462,6 +486,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = filek.Mapas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
