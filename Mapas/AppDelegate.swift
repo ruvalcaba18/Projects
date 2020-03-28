@@ -10,11 +10,13 @@ import UIKit
 import CoreData
 import CoreLocation
 
+@available(iOS 13.0, *)
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var permisoLocalizacion: CLLocationManager?
-    
+    var window: UIWindow?
     private func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject:AnyObject]?) ->Bool {
         // solicitamos el permiso para utilizar la geolocalizacion del usuario
         permisoLocalizacion = CLLocationManager()
